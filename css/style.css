@@ -1,0 +1,201 @@
+html{
+	font-size: unset;
+}
+body {
+background-color: #ff8c8c;
+background-image: url(wholepage.jpg);
+padding: 0;
+margin: 0;
+color: black;
+font-size: unset;
+}
+
+.profile-box {
+width: 100%;
+height: 600px;
+background-color: #8Da9cf;
+background-image: url("touristbg.jpg");
+background-repeat: no-repeat;
+
+opacity: 1;
+background-size: cover;
+}
+.round{
+	width: 360px;
+height: 250px;
+position: relative;
+float: left;
+background-color: #95acee;
+border: 1px solid #777;
+border-radius: 2em;
+padding: 5px;
+
+margin-left: 14px;
+margin-top: 15px;
+box-shadow:inset 0.2em 0.2em .2em .2em rgba(0, 0, 0, 0.3),
+              0em 0em .2em .2em rgba(0, 0, 0, 0.3);           
+
+transition: all 250ms ease-in-out;
+}
+.round:hover{
+	transform: scale(1.05);
+}
+.po{
+	position: absolute;
+	left: 37%;
+	text-align: center;
+	font-family: unset;}
+.img{
+	border-radius: 3em;
+	position: relative;
+	left: 20px;
+	font-size: 1.3em;
+}
+.title{
+	background-color: #5fcbeb;
+	
+	width: 200px;
+	height: 65px;
+	font-family: sans-serif;
+	font-size: 1.5em;
+	font-style: oblique;
+	text-align: center;
+	opacity: 0.7;
+	padding-top: 7px;
+	border-left: dotted;
+
+}
+#bt{
+	background-color: dodgerblue;
+	font-size: 2em;
+	width: 100%;
+	color: black;
+	font-weight: 700;
+	
+	transform: translate(0, 9%)
+}
+
+#navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.bigg{
+	font-size: 1.25em;
+
+}
+
+.newbox{
+	display: flex;
+    justify-content: flex-end;
+}
+.newbody{
+	background-color: #1d2427;
+	float: right;
+	width: 400px;
+	height: 200px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	opacity: 0.7;
+	border-radius: 2em;
+	transform: translate(-20%, 0) ;
+     transition: all 0.5s ease-in;
+}
+.newbody:hover {
+	transform: translateY(10px) ;
+  
+}
+.newbody .np{
+	text-align: center;
+	color: #f8f6ff;
+	font-size: 2em;
+
+}
+.newbody p{
+	text-align: center;
+	color: #f8f6ff;
+	padding: 5px;
+}
+footer{
+	height: 320px;
+	background-color: ghostwhite;
+	
+}
+.divider{
+	height: 1px;
+	background-color: black;
+	width: 200px;
+}
+.foot{
+	display: flex;
+	justify-content: space-around;
+	background-color:#b4f8ff9e;
+
+	
+}
+.foot1{
+	padding: 20px;
+	font-size: 1.5em;
+}
+.foot1 p{
+	padding: 0;
+	margin: 0;
+}
+#footbg{
+	background-image: url(victoria-memorial.jpg);
+}
+
+.new{
+	border-left-style: dotted;
+	border-color: firebrick;
+	padding-left: 5px;
+	line-height: 50px;
+	opacity: 1 !important;
+}
+#body-down{
+	text-align: center;
+	color: ghostwhite;
+	padding: 10px;
+}
+#cardbg{
+	padding: 0;
+	margin: 0;
+}
+.feature{
+	display: flex;
+	justify-content: space-between;
+	opacity: unset;
+	padding: 15px;
+	padding-right: 40px;
+	padding-top: 30px;
+}
+.bgfeature{
+	background-color:#665c58;
+	color: wheat;
+}
+.img-fe{
+	border-radius: 0 5em 0;
+}
+.box-fe-left{
+	border: solid #03f2b2 2px;
+	border-radius: 3em 1em 0 2em;
+	padding: 10px;
+	font-size: 1.2em;
+	margin-right: 10px;
+	line-height: 1.8em;
+}
+.box-fe-right{
+	border: solid #e89d3c 2px;
+	border-radius: 0em 5em  0em 0;
+	padding: 10px;
+	font-size: 1.2em;
+	margin-left: 10px;
+	line-height: 1.8em;
+}
+a:link{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: rebeccapurple;
+}
